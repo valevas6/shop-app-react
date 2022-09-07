@@ -12,7 +12,8 @@ const Home = () => {
       <Announcement />
       <Slider />
       <Categories />
-      <Products/>
+      <Products type='fragrances'/>
+      <Products type='skincare'/>
       <Newsletter/>
       <Footer/>
     </div>
