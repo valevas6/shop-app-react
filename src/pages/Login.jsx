@@ -57,6 +57,18 @@ const LinkButton = styled.div`
   text-decoration: underline;
   cursor: pointer;
 `;
+const CheckboxContainer= styled.div`
+  display: flex;
+  padding-bottom: 15px;
+`;
+const Checkbox = styled.input`
+  margin-right: 5px;
+`;
+const TextCheckbox = styled.p`
+  margin: 5px 0px;
+  font-size: 12px;
+  cursor: pointer;
+`;
 
 const Login = () => {
   return (
@@ -64,10 +76,13 @@ const Login = () => {
       <Wrapper>
         <Title>SIGN IN</Title>
         <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
+          <Input placeholder="Username" required="required"  />
+          <Input placeholder="Password" required="required" />
+          <CheckboxContainer>
+            <Checkbox type="checkbox" required="required" />
+            <TextCheckbox>Accept Terms and Conditions</TextCheckbox>
+          </CheckboxContainer>
           <Button>LOGIN</Button>
-          <LinkButton>DO NOT YOU REMEMBER THE PASSWORD?</LinkButton>
           <LinkButton><Link to="/register">CREATE A NEW ACCOUNT</Link></LinkButton>
         </Form>
       </Wrapper>

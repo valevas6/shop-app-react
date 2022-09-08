@@ -85,6 +85,11 @@ const Payment = styled.img`
     width: 50%;
 `;
 
+const LinkSocial = styled.a`
+  color: white;
+`;
+
+
 const Footer = () => {
   return (
     <Container>
@@ -97,16 +102,16 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
-            <Facebook />
+            <LinkSocial target="_blank" without rel="noreferrer" href="https://www.facebook.com"><Facebook /></LinkSocial>
           </SocialIcon>
           <SocialIcon color="E4405F">
-            <Instagram />
+            <LinkSocial target="_blank" without rel="noreferrer" href="https://www.instagram.com"><Instagram /></LinkSocial>
           </SocialIcon>
           <SocialIcon color="55ACEE">
-            <Twitter />
+            <LinkSocial target="_blank" without rel="noreferrer" href="https://www.twitter.com"><Twitter /></LinkSocial>
           </SocialIcon>
           <SocialIcon color="E60023">
-            <Pinterest />
+            <LinkSocial target="_blank" without rel="noreferrer" href="https://www.pinterest.com"><Pinterest /></LinkSocial>
           </SocialIcon>
         </SocialContainer>
       </Left>
@@ -115,14 +120,10 @@ const Footer = () => {
         <List>
           <ListItem><Link to='/'>Home</Link></ListItem>
           <ListItem>Cart</ListItem>
-          <ListItem>Man Fashion</ListItem>
-          <ListItem>Woman Fashion</ListItem>
-          <ListItem>Accessories</ListItem>
-          <ListItem>My Account</ListItem>
-          <ListItem>Order Tracking</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Terms</ListItem>
+          <ListItem><Link to='/productList'>Products</Link></ListItem>
+          <ListItem><Link to='/about'>About</Link></ListItem>
+          <ListItem><Link to='/register'>Register</Link></ListItem>
+          <ListItem><Link to='/login'>Log in</Link></ListItem>
         </List>
       </Center>
       <Right>
@@ -131,10 +132,10 @@ const Footer = () => {
           <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+          <Phone style={{marginRight:"10px"}}/> <a href="tel:+4733378901">+1 234 56 78</a>
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutline style={{marginRight:"10px"}} /> <a href="mailto:contact@lama.dev">contact@lama.dev</a>
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>

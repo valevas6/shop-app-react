@@ -1,22 +1,22 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://source.unsplash.com/user/c_v_r/675x675",
+      img: "https://img.freepik.com/free-photo/young-woman-vacation-by-pool_1303-14398.jpg?w=2000&t=st=1662597539~exp=1662598139~hmac=1e710d7e70458270478a9d0a40866578c544e77a3def9c27db5990921294ed14",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
+      img: "https://img.freepik.com/free-photo/young-family-with-children-autumn-park_1303-25426.jpg?w=2000&t=st=1662597375~exp=1662597975~hmac=086e8437c1b784059d21a43f72c12507edcf08bd9f2287d1ea784dce23f6c21f",
+      title: "AUTUMN SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://img.freepik.com/free-psd/traveler-holding-mock-up-smartphone_23-2148848474.jpg?w=2000&t=st=1662597598~exp=1662598198~hmac=bc56d96243a0d1ce6b45808ffbfc86001bd15f5eb1268d246ef44892f6ab4d5b",
+      title: "TECHNOLOGY LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
     },
@@ -25,55 +25,20 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: "https://img.freepik.com/free-photo/vertical-shot-pretty-black-businesswoman-examines-charts-papers_273609-18039.jpg?w=996&t=st=1662597051~exp=1662597651~hmac=f4310f66faa0630f955ce2c89dfa15be216101fcf46e990bd20eca28e9503515",
+      title: "TECHNOLOGY PRODUCTS",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://img.freepik.com/free-photo/view-photo-frames-home-with-interior-design_23-2149513943.jpg?t=st=1662597112~exp=1662597712~hmac=3093bb9c72075d499dc621796c7d9048722bc151743d2fc37c83092cd286a5ea",
+      title: "HOME PRODUCTS",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://img.freepik.com/free-photo/caucasian-woman-look-mirror-with-patches-face_197531-33903.jpg?w=2000&t=st=1662597195~exp=1662597795~hmac=e5050adaa5400a68f93eb9c06515e6fe817fde0c6716845afaebed3c32c8365d",
+      title: "SKIN CARE PRODUCTS",
     },
   ];
-
-  export const popularProducts = [
-    {
-      id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
-    },
-    {
-      id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
-    },
-    {
-      id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
-    },
-    {
-      id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
-    },
-    {
-      id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
-    },
-    {
-      id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
-    },
-    {
-      id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
-    },
-    {
-      id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
-    },
-  ]
 
   export const allProducts = [
     {

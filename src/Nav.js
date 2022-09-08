@@ -48,6 +48,8 @@ const Nav = () => {
         <Link to='/'><Logo>LAMA.</Logo></Link>
         </Left>
         <Right>
+        <Link to="/"><MenuItem>HOME</MenuItem></Link>
+        <Link to="/about"><MenuItem>ABOUT</MenuItem></Link>
         <Link to="/productList"><MenuItem>PRODUCTS</MenuItem></Link>
         <Link to="/register"><MenuItem>REGISTER</MenuItem></Link>
         <Link to="/login"><MenuItem>LOG IN</MenuItem></Link>
